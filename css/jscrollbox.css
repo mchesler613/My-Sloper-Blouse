@@ -1,0 +1,44 @@
+
+.scroll-img {		/* this is the box that contains the scroller */
+  //border: 1px solid blue;
+  //width: 450px;
+  height: 255px; // 165px;
+  overflow: auto;
+  font-size: 0;
+  align:center;
+   margin: 5px 5px 5px 5px; 
+}
+.scroll-img ul {			/* let this auto-adjust itself */
+  //width: 465px;
+  // height: 620px;
+  margin: 0;
+}
+
+
+.scroll-img ul li {
+  display: inline-block;
+  margin: 0px 0px 5px 0px;  /* top, right, bottom, left - this is for spacing between each <li> */
+
+}
+
+#bodicebox.scroll-img ul {		/* this determines the size of scrollbox without scroller */
+  width: 465px;				/* must be at least this big to contain 3 150x150 images */
+  border: 1px solid gray;
+}
+
+#dressbox.scroll-img ul {		/* this determines the size of scrollbox without scroller */
+  width: 465px;				/* must be at least this big to contain 3 150x150 images */
+  border: 1px solid gray;
+}
+
+
+#skirtbox.scroll-img ul {		/* this determines the size of scrollbox without scroller */
+  width: 465px;				/* must be at least this big to contain 3 150x150 images */
+  border: 1px solid gray;
+}
+
+
+#pocketbox.scroll-img ul {		/* this determines the size of scrollbox without scroller */
+  width: 465px;				/* must be at least this big to contain 3 150x150 images */
+  border: 1px solid gray;
+}
